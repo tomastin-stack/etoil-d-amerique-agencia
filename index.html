@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Étoile d’Amérique | Luxury Travel Agency</title>
+  <meta name="description" content="Étoile d’Amérique, agence de voyage de luxe.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <!--
+    INSTRUCCIONES RÁPIDAS
+    - Todo lo que tenga la clase "alerta" (resaltado en amarillo) es texto de ejemplo: reemplázalo y borra la clase.
+    - Imágenes: guárdalas en la carpeta images con nombres en minúsculas, sin espacios ni tildes.
+      Nombres que usa este código: logo.png, portada.jpg, ville-1.jpg, culture-1.jpg,
+      galerie-1.jpg ... galerie-6.jpg
+  -->
+
+  <!-- Barra superior de contacto -->
+  <div class="barra-superior">
+    <span><span > (+57) 322 370 5750</span></span>
+    <span><span > agencecontact@etoiledamerique.com.co</span></span>
+  </div>
+
+  <!-- Menú -->
+  <header class="cabecera" id="cabecera">
+    <nav class="menu" aria-label="Navigation principale">
+      <a href="#inicio" class="menu-logo" aria-label="Étoile d’Amérique, accueil">
+        <img src="images/logo.png" alt="Étoile d’Amérique – Luxury Travel Agency">
+      </a>
+
+      <button class="menu-boton" id="menu-boton" aria-expanded="false" aria-controls="menu-lista" aria-label="Ouvrir le menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="menu-lista" id="menu-lista">
+        <li class="desplegable">
+          <button class="desplegable-boton" aria-expanded="false">Destination <span class="flecha"></span></button>
+          <ul class="desplegable-lista">
+            <li><a href="#ville">Informations générales</a></li>
+            <li><a href="#histoire">Histoire et culture</a></li>
+            <li><a href="#galerie">Lieux touristiques</a></li>
+          </ul>
+        </li>
+        <li class="desplegable">
+          <button class="desplegable-boton" aria-expanded="false">Forfait <span class="flecha"></span></button>
+          <ul class="desplegable-lista">
+            <li><a href="#forfait">Description</a></li>
+            <li><a href="#prix">Prix et services inclus</a></li>
+            <li><a href="#itineraire">Itinéraire complet</a></li>
+          </ul>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="boton-reservar">Réserver</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- 1. Portada: nombre, logo y eslogan -->
+    <section class="portada" id="inicio">
+      <div class="portada-contenido">
+        <h1>Étoile d’Amérique</h1>
+        <p class="portada-eslogan"><span>Pour vivre, seulement un, pour visiter, beaucoup. Connaître le monde avec nous</span></p>
+        <a href="#ville" class="boton">Découvrir <span>New York</span></a>
+      </div>
+    </section>
+
+    <!-- 2. Informaciones generales de la ciudad -->
+    <section class="seccion" id="ville">
+      <div class="contenedor dos-columnas">
+        <div class="texto">
+          <h2>Informations générales</h2>
+          <p>"​Ça a été une très bonne ville, il y a beaucoup de choses à faire, la nourriture a été excellente, et les parcs et les tours ont été incroyables. Il est une des villes les plus multiculturelles dans le monde et, en général, elle a été une ville très connue." - Gabriel 
+</p>
+          <dl class="datos">
+            <div><dt>Pays</dt><dd>Etats Unis</dd></div>
+            <div><dt>Langue</dt><dd > Anglais et Espagnol</dd></div>
+            <div><dt>Monnaie</dt><dd> Dollar</dd></div>
+            <div><dt>Climat</dt><dd> Froi en hiver, chaud a ete</dd></div>
+            <div><dt>Meilleure saison</dt><dd>hiver</dd></div>
+          </dl>
+        </div>
+        <figure>
+          <img src="images/ville-1.jpg" alt="Vue de la ville">
+          <figcaption> Quartier Financier</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3. Historia y cultura -->
+    <section class="seccion seccion-clara" id="histoire">
+      <div class="contenedor dos-columnas invertida">
+        <figure>
+          <img src="images/culture-1.jpg" alt="Culture locale">
+          <figcaption >La Statue de la Liberté</figcaption>
+        </figure>
+        <div class="texto">
+          <h2>Histoire et culture</h2>
+          <details class="acordeon" open>
+            <summary>Histoire</summary>
+            <p>Les hollandais ont fondé New York en 1625, George Washington a prêté serment comme premier président américain a Wall Street, dans 1789. En 1886, La France a offert la Statue de la Liberté aux Etats-Units.
+                En 1892, Le centre de transit d'Ellis Island a ouvert les portes au inmigtants. Dans 1929: La bourse de Wall Street s'est effondrée et a déclenché une crise mondiale. En 2001 Des attentats musulmans terroristes ont détruit les tours du World Trade Centre originel. 
+</p>
+          </details>
+          <details class="acordeon">
+            <summary>Culture et traditions</summary>
+            <p>New Yor a celebrations comme. Le Nouvel An, Un boule de cristal tombé au Times Square chaque décembre 31 à minuit. Thanksgiving, Macy's organise un défilé avec ballons gigantesque dans les rues.
+                La Saint Patrick, La communite irlandaise défile sur la Cinquième Avenue avec vêtements verts. L'Indépendance, Macy's lance un grand fue d'artifice à la l'east river. Finalment Halloween, Green village célèbre un parade nocturne colorée.
+                À New York, les habitants aiment beaucoup la musique et la culture. Dans le métro, des musiciens jouant de la guitare ou saxophone. Le soir, les New Yorkais écoutent le  jazz à Harlem ou vont voir une musicale à Broadway.
+                Ils visitent depuis des musées comme le Met et il marcher à Central Park. En hiver, ils font du patin à glace au Rockefeller Center et regard le spectacle au Radio City Music Hall.          A New York, les artistes connaissent la musique et la ville est toujours jolie.
+                À New York, les habitants ont des coutumes très simples. Le matin, ils prennent un café et ils mangent un bagel dans la rue parce quils marchent très vite.
+                Les New Yorkais parlent beaucoup de langues et célèbrent des fêtes du monde entier. En novembre, les familles préparent pour Thanksgiving et regardent le défilé dans la rue. Le weekend, ils font un piquenique dans le parc ou ils mangent un brunch avec amis.
+
+
+
+
+
+</p>
+          </details>
+          <details class="acordeon">
+            <summary>Gastronomie</summary>
+            <p class="alerta">⚠ TEXTE : plats typiques et boissons à goûter.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Fotografías de los lugares turísticos -->
+    <section class="seccion" id="galerie">
+      <div class="contenedor">
+        <h2>Lieux Touristiques</h2>
+        <p>Des Lieux avec un peu de la Culture New Yorkaise</p>
+        <div class="galeria">
+          <figure><img src="images/galerie-1.jpg" alt="Lieu touristique 1"><figcaption >Times Square</figcaption></figure>
+          <figure><img src="images/galerie-2.jpg" alt="Lieu touristique 2"><figcaption >Pont Brooklin</figcaption></figure>
+          <figure><img src="images/galerie-3.jpg" alt="Lieu touristique 3"><figcaption >9/11 Memorial</figcaption></figure>
+          <figure><img src="images/galerie-4.jpg" alt="Lieu touristique 4"><figcaption >Empire State</figcaption></figure>
+          <figure><img src="images/galerie-5.jpg" alt="Lieu touristique 5"><figcaption >Central Park</figcaption></figure>
+          <figure><img src="images/galerie-6.jpg" alt="Lieu touristique 6"><figcaption >MET Musée</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Descripción del paquete turístico -->
+    <section class="seccion seccion-oscura" id="forfait">
+      <div class="contenedor estrecho">
+        <h2>Le forfait</h2>
+        <h3>Ultra Premium</h3>
+        <p>Le Forfait incluit des services et activites premium, pour la meilleur experience et luxury
+
+        </p>
+      </div>
+    </section>
+
+    <!-- 6. Precio y servicios incluidos -->
+    <section class="seccion" id="prix">
+      <div class="contenedor dos-columnas">
+        <div class="precio-caja">
+          <p> Presque de: </p>
+          <h4> 1.300.000 €</h4>
+          <p> Par personne</p>
+          <a href="#contact" class="boton">Réserver</a>
+        </div>
+        <div class="texto">
+          <h2>Prix et services inclus</h2>
+          <h3>Inclus</h3>
+          <ul class="lista-check">
+            <li class="alerta">⚠ SERVICE INCLUS 1 (vol, hôtel, transferts…)</li>
+            <li class="alerta">⚠ SERVICE INCLUS 2</li>
+            <li class="alerta">⚠ SERVICE INCLUS 3</li>
+            <li class="alerta">⚠ SERVICE INCLUS 4</li>
+          </ul>
+          <h3>Non inclus</h3>
+          <ul class="lista-cruz">
+            <li class="alerta">⚠ SERVICE NON INCLUS 1</li>
+            <li class="alerta">⚠ SERVICE NON INCLUS 2</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Itinerario completo (esto sí es una secuencia: se usa lista ordenada) -->
+    <section class="seccion seccion-clara" id="itineraire">
+      <div class="contenedor estrecho">
+        <h2>Itinéraire complet</h2>
+        <ol class="itinerario">
+          <li>
+            <details open>
+              <summary>Jour 1 – <span class="alerta">⚠ TITRE</span></summary>
+              <p class="alerta">⚠ TEXTE : activités, repas, hébergement du jour 1.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>Jour 2 – <span class="alerta">⚠ TITRE</span></summary>
+              <p class="alerta">⚠ TEXTE : activités, repas, hébergement du jour 2.</p>
+            </details>
+          </li>
+          <li>
+            <details>
+              <summary>Jour 3 – <span class="alerta">⚠ TITRE</span></summary>
+              <p class="alerta">⚠ TEXTE : activités, repas, hébergement du jour 3.</p>
+            </details>
+          </li>
+          <!-- Copia un bloque <li>...</li> para añadir más días -->
+        </ol>
+      </div>
+    </section>
+
+    <!-- 8. Contacto ficticio y eslogan -->
+    <section class="seccion seccion-oscura" id="contact">
+      <div class="contenedor estrecho centrado">
+        <h2>Contact</h2>
+        <p>Pour vivre, seulement un, pour visiter, beaucoup. Connaître le monde avec nous</p>
+        <ul class="contacto-lista">
+          <li> Rue 3 # 52 - 253, #52-253, Cali, Colombia</li>
+          <li> (+57) 322 370 5750 </li>
+          <li> agencecontact@etoiledamerique.com.co</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="pie">
+    <p>© <span id="anio">2026</span> Étoile d’Amérique – Luxury Travel Agency. Site fictif à usage récréatif et non lucratif.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
